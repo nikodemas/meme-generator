@@ -10,9 +10,10 @@ body {
 }
 
 .meme > img {
+  border: 1.5px solid;
   width: 95%;
-  max-width: 40em;
-  max-height: 40em;
+  max-width: 35em;
+  max-height: 35em;
   margin-bottom: 1.5em;
   background: cover;
   background-repeat: no-repeat;
