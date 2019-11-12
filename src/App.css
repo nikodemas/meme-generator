@@ -10,7 +10,6 @@ body {
 }
 
 .meme > img {
-  border: 1.5px solid;
   width: 95%;
   max-width: 35em;
   max-height: 35em;
@@ -59,4 +58,5 @@ body {
   width: 40%;
   min-width: 20em;
   height: 3em;
+
 }

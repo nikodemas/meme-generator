@@ -15,8 +15,11 @@ class App extends React.Component {
     this.setState({ [name]: value });
   };
   handleClick = event => {
-    this.setState({ file: URL.createObjectURL(event.target.files[0])});
-  };
+  if(event.target.files[0] != null)
+  {
+    this.setState({file: URL.createObjectURL(event.target.files[0])})
+  }
+  };  
   
   render() {
     return (
